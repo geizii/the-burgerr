@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Burger</title>
+
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css">
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#Inicio">Início</a></li>
+                <li><a href="#QuemSomos">Quem Somos</a></li>
+                <li><a href="#Cardapio">Cardápio</a></li>
+                <li><a href="#Contato">Contato</a></li>
+                <li><a href="#Franqueado">Seja um Franqueado</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#brand" class="brand">The Burger</a></li>
+                <li class="hideOnMobile"><a href="#Inicio">Início</a></li>
+                <li class="hideOnMobile"><a href="#QuemSomos">Quem Somos</a></li>
+                <li class="hideOnMobile"><a href="#Cardapio">Cardápio</a></li>
+                <li class="hideOnMobile"><a href="#Contato">Contato</a></li>
+                <li class="hideOnMobile"><a href="#Franqueado">Seja um Franqueado</a></li>
+                <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <div class="info">
+                <h2>Confira nossas ofertas !</h2>
+                <p>Comida boa, rápida e com o melhor preço da região</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="container-cards">
+        <h1>ESCOLHA E APROVEITE !</h1>
+        <div class="card">
+            <img src="/src/img/chicken-burger.png" alt="">
+        </div>
+        <div class="card-text">
+            <h3>Chicken Burger</h3>
+            <p>Chicken breast meat, Salt, Pepper, Garlic powder, Onion powder, Paprika, Egg, Breadcrumbs, Flour, Oil for frying or grilling.</p>
+            <span>R$28.90</span>
+            <button>Peça agora!</button>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>

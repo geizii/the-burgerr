@@ -1,0 +1,24 @@
+@media (max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .brand {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button {
+        display: block;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1285px) {
+    .menu-button {
+        display: none;
+    }
+}
