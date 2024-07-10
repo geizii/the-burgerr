@@ -2,6 +2,7 @@
 @import url("navbar.css");
 @import url("mobile.css");
 @import url("hero.css");
+@import url("cards.css");
 
 :root {
     --primary-text-color: #FFF;

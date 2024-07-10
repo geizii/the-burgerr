@@ -1,0 +1,67 @@
+#container-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#container-cards h1 {
+    font-family: "Bevan", serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.card-content img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.card-content h2 {
+    font-family: "Bevan", serif;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.card-content p {
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.card-content .card-button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card-content .card-button:hover {
+    background-color: #e64a19;
+}
